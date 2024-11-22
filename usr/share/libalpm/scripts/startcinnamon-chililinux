@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Adds startcinnamon-chililinux to the Cinnamon session
+if [ "$(grep startcinnamon-chililinux /usr/bin/cinnamon-session)" = "" ]; then
+    sed -i '/exec \/usr\/lib\/cinnamon-session\/cinnamon-session-binary/i . /usr/bin/startcinnamon-chililinux' /usr/bin/cinnamon-session
+fi
