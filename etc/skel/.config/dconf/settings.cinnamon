@@ -2060,7 +2060,7 @@ app-id='xfce4-terminal'
 exec="gdbus call --session --dest org.desktopspec.ApplicationManager1 --object-path /org/desktopspec/ApplicationManager1/xfce4_2dterminal --method org.desktopspec.ApplicationManager1.Application.Launch '' [] {}"
 
 [com/deepin/wrap/gnome/desktop/interface]
-cursor-theme='capitaine-cursors'
+cursor-theme='capitaine-cursors-light'
 
 [com/deepin/wrap/gnome/desktop/peripherals/keyboard]
 delay=uint32 250
@@ -2071,7 +2071,7 @@ theme='deepin-dark'
 
 [com/deepin/xsettings]
 double-click-time=500
-gtk-cursor-theme-name='capitaine-cursors'
+gtk-cursor-theme-name='capitaine-cursors-light'
 gtk-font-name='Abel 9.00'
 qt-font-name='Abel'
 qt-mono-font-name='3270 Nerd Font Mono'
@@ -2153,7 +2153,7 @@ clock-show-date=false
 clock-show-seconds=false
 cursor-blink-time=1200
 cursor-size=24
-cursor-theme='capitaine-cursors'
+cursor-theme='capitaine-cursors-light'
 font-name='Ubuntu Condensed, Bold 10'
 gtk-theme='Big-Blue'
 icon-theme='BeautyFolders'
@@ -2535,7 +2535,7 @@ cursor-blink=true
 cursor-blink-time=1200
 cursor-blink-timeout=10
 cursor-size=24
-cursor-theme='capitaine-cursors'
+cursor-theme='capitaine-cursors-light'
 document-font-name='Sans Bold 11'
 enable-animations=true
 font-antialiasing='rgba'
