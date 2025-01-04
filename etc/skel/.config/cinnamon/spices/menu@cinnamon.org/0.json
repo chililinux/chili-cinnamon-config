@@ -217,7 +217,7 @@
         "default": false,
         "description": "Open the menu when I move my mouse over it",
         "tooltip": "Enable opening the menu when the mouse enters the applet",
-        "value": false
+        "value": true
     },
     "hover-delay": {
         "type": "spinbutton",
@@ -236,7 +236,7 @@
         "default": false,
         "description": "Use menu animations",
         "tooltip": "Allow the menu to animate on open and close",
-        "value": false
+        "value": true
     },
     "menu-editor-button": {
         "type": "button",
