@@ -358,10 +358,6 @@
         ],
         "value": [
             "nemo.desktop",
-            "mate-calc.desktop",
-            "org.gnome.Meld.desktop",
-            "google-chrome.desktop",
-            "Winbox.desktop",
             "firefox.desktop",
             "brave-browser.desktop",
             "xfce4-terminal.desktop"
